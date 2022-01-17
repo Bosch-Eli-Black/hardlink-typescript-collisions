@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.4.0-alpha">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>709fdc7b-fe2c-4814-ab36-0f544ce35968</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <StartupCommand>
+    </StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <BuildCommand>yarn-install.bat</BuildCommand>
+  </PropertyGroup>
+  <ItemGroup>
+    <Script Include="**" Exclude="*.esproj;**\node_modules\**" />
+  </ItemGroup>
+</Project>

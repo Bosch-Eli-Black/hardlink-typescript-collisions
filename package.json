@@ -1,0 +1,24 @@
+{
+  "name": "example-root",
+  "version": "1.0.0",
+  "description": "example",
+  "author": "example",
+  "license": "example",
+  "private": true,
+  "scripts": {
+    "app-run-dev": "yarn workspace example-app run run",
+    "app-build-prod": "yarn workspace example-app run package"
+  },
+  "workspaces": [
+    "app",
+    "src"
+  ],
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0"
+  },
+  "resolutions": {
+    "lzma-native": "8.0.5"
+  }
+}

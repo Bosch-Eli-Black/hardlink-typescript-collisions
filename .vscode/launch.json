@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/c yarn run app-run-dev"
+      ],
+      "console": "externalTerminal"
+    }
+  ]
+}

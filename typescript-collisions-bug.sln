@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "typescript-collisions-bug", "typescript-collisions-bug.esproj", "{709FDC7B-FE2C-4814-AB36-0F544CE35968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{709FDC7B-FE2C-4814-AB36-0F544CE35968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709FDC7B-FE2C-4814-AB36-0F544CE35968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709FDC7B-FE2C-4814-AB36-0F544CE35968}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{709FDC7B-FE2C-4814-AB36-0F544CE35968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709FDC7B-FE2C-4814-AB36-0F544CE35968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709FDC7B-FE2C-4814-AB36-0F544CE35968}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F10B2CB0-84FC-4AA3-BE0E-2B8792A7586E}
+	EndGlobalSection
+EndGlobal
